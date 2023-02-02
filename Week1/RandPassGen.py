@@ -4,7 +4,10 @@ dict1={1:'Contains Uppercase Character',2:'Contains Lowercase Character',3:'Cont
 for key,value in dict1.items():
     print(key,value)
 dict2={1:string.ascii_uppercase,2:string.ascii_lowercase,3:string.digits,4:'@#-$'}
+
 n=int(input("Enter number of rules you want in your password: "))
+if n==0:
+    n=4
 RuleNo=list(dict1.keys())
 # print(RuleNo)
 randomList=random.sample(RuleNo,n)
