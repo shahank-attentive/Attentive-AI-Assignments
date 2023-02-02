@@ -1,1 +1,14 @@
+_________Q1-Random Pass Gen_________
+suppose rules user want= 3
+can user specify which 3 rules he want? or is it random 3 rules
+does character needs to be present from all the rules selected ? or is it pure random? 
+
+I have solved by selecting any n random rules(n -input from user) then again selecting random characters from rules
+
+
+
+_________Q2-Currency Conv___________
+No queries
+
+api which was given is not working so I used another
 
