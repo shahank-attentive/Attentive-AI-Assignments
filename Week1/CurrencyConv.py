@@ -7,8 +7,8 @@ def fun(base,conv,amount):
     ans = amount * (conv_v / base_v)
     return  ans
 
-response_API=requests.get('https://api.currencyapi.com/v3/latest?apikey=MrlfIugPXbWwLEW3kIfcihZVJXCIPn1E6gncTaOc')
-data=response_API.text   #converted to string
+resp=requests.get('https://api.currencyapi.com/v3/latest?apikey=MrlfIugPXbWwLEW3kIfcihZVJXCIPn1E6gncTaOc')
+data=resp.text   #converted to string
 data_new=json.loads(data) #converv to dict class
 # print(data_new)
 to_print=list(data_new['data'].keys())
