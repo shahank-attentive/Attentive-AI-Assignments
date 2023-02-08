@@ -11,4 +11,4 @@ _________Q2-Currency Conv___________
 No queries
 
 api which was given is not working so I used another
-
+______________________________________________________________Queries resolved__________________________________________
