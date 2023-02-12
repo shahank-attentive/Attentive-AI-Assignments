@@ -1,1 +1,3 @@
-Here I'm creating todoproject
+Learned Djago
+Made todo project 
+link-https://github.com/shahank-attentive/todoproject
